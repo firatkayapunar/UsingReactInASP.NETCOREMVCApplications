@@ -1,0 +1,23 @@
+﻿<!-- Hakkımızda Sayfası (About.cshtml) -->
+<div>
+    <h1>Hakkımızda</h1>
+    <p>Şirketimiz hakkında bilgiler burada yer alıyor.</p>
+
+    <!-- React Bileşeninin Kullanıldığı Kısım -->
+    <div id="user-list">
+        <!-- React bileşeni buraya render edilecek -->
+    </div>
+    <p>Diğer bilgiler...</p>
+</div>
+
+
+@section Scripts{
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <!-- React bileşeni script dosyası -->
+    <!-- UserListComponent.jsx adında bir dosya oluşturulmuştur.
+    Bu dosya, React bileşenini içerir ve type="text/babel" olarak belirtilmiştir,
+    bu da Babel'in bu dosyayı işleyip çalıştıracağı anlamına gelir.-->
+    <script src="@Url.Content("~/js/UserListComponent.jsx")" type="text/babel"></script>
+}
