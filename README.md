@@ -1,6 +1,6 @@
 <p> 
 <em>
-You can review lecture notes on many topics related to the use of React in Asp.Net Core MVC applications, Virtual Dom, and Jsx files here.
+You can review lecture notes on using React in Asp.Net Core MVC applications, lecture notes on Virtual Dom and many other topics here.
 </em>
 </p>
 
